@@ -1,4 +1,4 @@
-const { verifyToken } = require('./verifyToken');
+// const { verifyToken } = require('./verifyToken');
 const {verifyTokenAndAuthorization}=require('./verifyToken')
 const {verifyTokenAndAdmin}=require('./verifyToken');
 
