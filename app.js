@@ -34,7 +34,7 @@ const dotenv=require("dotenv");//call the library
 dotenv.config();//
 
 mongoose.set('strictQuery', false)
-mongoose.connect(`mongodb://localhost:27017/surveyform`,(err) => {
+mongoose.connect(`mongodb+srv://Surveyform:Surveyform@cluster0.8shbddr.mongodb.net/?retryWrites=true&w=majority`,(err) => {
     if(err) {
         console.log(`${err} error connecting to mongodb`);
     }else {
